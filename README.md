@@ -64,7 +64,7 @@ A visual indicator that detects `Program Change` MIDI events in real time during
 
 ## 👀 Example Workflow
 
-![MIDI Preset Tools UI Overview](images/midi_preset_tools_ui.png)
+![MIDI Preset Tools UI Overview](img/PresetLoader_Visualizer.png)
 
 1. Use `MIDI_Preset_Loader.lua` to insert a `.mid` file into the desired track.
 2. Run `MIDI_Preset_Indicator.lua` in a floating window to monitor preset changes.
