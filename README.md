@@ -6,8 +6,6 @@ This repository contains two Lua scripts for REAPER, designed to simplify workin
 
 ## 🎛️ Real-world Use Case
 
-*Ideally, this tool is independent of the gear you're using — simply placing your `.mid` files (with the appropriate PC and CH) into different folders should be enough for the loader and visualizer to work seamlessly with your DAW timeline.*
-
 This project was born out of a practical need for a smooth and efficient workflow during live shows:
 
 1. On stage, I use an **MLive Bbeat** as a sequence trigger. This device can launch audio and MIDI sequences simultaneously. Combined with a **WIDI wireless MIDI transmitter**, I send MIDI instructions wirelessly to my **HX STOMP (Line 6)** so it automatically changes presets during a performance.
@@ -65,6 +63,8 @@ A visual indicator that detects `Program Change` MIDI events in real time during
 ## 👀 Example Workflow
 
 ![MIDI Preset Tools UI Overview](img/PresetLoader_Visualizer.png)
+
+*Ideally, this tool is independent of the gear you're using — simply placing your `.mid` files (with the appropriate PC and CH) into different folders should be enough for the loader and visualizer to work seamlessly with your DAW timeline.*
 
 1. Use `MIDI_Preset_Loader.lua` to insert a `.mid` file into the desired track.
 2. Run `MIDI_Preset_Indicator.lua` in a floating window to monitor preset changes.
